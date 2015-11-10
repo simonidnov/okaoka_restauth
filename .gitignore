@@ -22,9 +22,14 @@ bower_components/
 /bower_components
 /bower_components/*
 
+uploads/
+/uploads
+/uploads/*
+
 okaoka_online/
 /okaoka_online
 /okaoka_online/*
+
 
 composer.json
 contributing.md
