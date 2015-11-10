@@ -1,0 +1,19 @@
+.drawing{
+    width:130px;
+    height:130px;
+    background-size:cover;
+    background-position: center center;
+    float:left;
+    margin:10px;
+    cursor: pointer;
+    background-color:#FFFFFF;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    border:0px solid #F0F0F0;
+}
+.drawing:hover{
+    border:10px solid #F0F0F0;
+}

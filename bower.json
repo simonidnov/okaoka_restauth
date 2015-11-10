@@ -1,0 +1,31 @@
+{
+  "name": "okaoka_ws",
+  "version": "0.0.0",
+  "authors": [
+    "simon <sdelamarre@idnovant.fr>"
+  ],
+  "description": "okaoka api",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "okaoka",
+    "api",
+    "ws",
+    "json",
+    "ajax",
+    "fulrest"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery.git#~2.1.4"
+  }
+}

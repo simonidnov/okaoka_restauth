@@ -1,0 +1,14 @@
+{
+    "label":"where",
+    "version":"0.0.0",
+    "color":"dgreen",
+    "dependencies":["where.js", "../../motions/winning_dance_top_motion.js", "motion/where_motion.js", "motion/where_tuto_popup_motion.js", "../../motions/assets/count_3.js"],
+    "styles":["where.css"],
+    "content":"where.html",
+    "script_name":"where",
+    "motion":"where_motion",
+    "sounds":[
+        {"label":"drawing_hit", "file":"./sounds/draw_hit.ogg"},
+        {"label":"drawing_ambiance", "file":"./sounds/draw_ambiance.ogg"}
+    ]
+}

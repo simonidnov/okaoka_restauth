@@ -1,0 +1,152 @@
+.okaoka_screen{
+    width:100%;
+    max-width: 550px;
+    border-radius:20px;
+    background: #000;
+    height:340px;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:40px;
+    position: relative;
+    border:3px solid #818181;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,474747+39,2c2c2c+50,000000+51,131313+100 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #4c4c4c 0%, #474747 39%, #2c2c2c 50%, #000000 51%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#4c4c4c), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #4c4c4c 0%,#474747 39%,#2c2c2c 50%,#000000 51%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #4c4c4c 0%,#474747 39%,#2c2c2c 50%,#000000 51%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #4c4c4c 0%,#474747 39%,#2c2c2c 50%,#000000 51%,#131313 100%); /* IE10+ */
+background: linear-gradient(135deg,  #4c4c4c 0%,#474747 39%,#2c2c2c 50%,#000000 51%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -moz-box-shadow: 20px 20px 0px 0px rgba(0,0,0,.3);
+-webkit-box-shadow: 20px 20px 0px 0px rgba(0,0,0,.3);
+-o-box-shadow: 20px 20px 0px 0px rgba(0,0,0,.3);
+box-shadow: 20px 20px 0px 0px rgba(0,0,0,.3);
+filter:progid:DXImageTransform.Microsoft.Shadow(color=rgba(0,0,0,.3), Direction=134, Strength=0);
+}
+.okaoka_screen .screen{
+    cursor: pointer;
+    width:467px;
+    height:280px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position: absolute;
+    -moz-box-shadow: -2px -2px 4px 0px rgba(0,0,0,.4);
+-webkit-box-shadow: -2px -2px 4px 0px rgba(0,0,0,.4);
+-o-box-shadow: -2px -2px 4px 0px rgba(0,0,0,.4);
+box-shadow: -2px -2px 4px 0px rgba(0,0,0,.4);
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=4);
+}
+.fake_camera{
+    position: absolute;
+    border-radius: 5px;
+    width:20px;
+    height:10px;
+    left:0;
+    right:0;
+    top:10px;
+    margin:auto;
+    background: #222;
+}
+.fake_camera_dot{
+    border-radius: 5px;
+    width:4px;
+    height:4px;
+    float:right;
+    margin: 3px;
+}
+.title_page{
+    color:#FFF;
+    font-weight: 100;
+    text-align: center;
+}
+
+.okaoka_hand{
+    position:absolute;
+    top:500%;
+    left:0;
+    right:0;
+    margin:auto;
+    width:200px;
+    height:900px;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(/images/blue_hand.png);
+    display: none;
+}
+.large_line{
+    width:100%;
+    position: relative;
+}
+.large_line .top_shadow { 
+    content: "";
+    height:5px;
+    width:100%;
+    background-color:rgba(0,0,0,.2);
+    position: absolute;
+    top:-5px;
+}
+.large_line .bottom_shadow { 
+    content: "";
+    height:10px;
+    width:100%;
+    background-color:rgba(0,0,0,.2);
+    position: absolute;
+    top:100%;
+}
+.description{
+    margin-bottom: 30px;
+    color:#FFF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+.thirty_col{
+    width:33%;
+    float:left;
+    position: relative;
+}
+.thirty_col:last-child{
+    width:34%;
+}
+
+.thirty_col .icon{
+    width:100%;
+    height:85px;
+    margin-top :60px;
+    position: relative;
+}
+.thirty_col .icon img{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+h3{
+    font-size: 24px;
+    color:#FFF;
+    text-align: center;
+    font-weight: 300;
+}
+.page_content.center{
+    text-align: center;
+}
+.center_icon{
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom:20px;
+    width:200px;
+}
